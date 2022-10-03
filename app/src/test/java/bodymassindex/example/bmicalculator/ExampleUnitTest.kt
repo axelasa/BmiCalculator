@@ -1,4 +1,4 @@
-package com.example.bmicalculator
+package bodymassindex.example.bmicalculator
 
 import org.junit.Test
 

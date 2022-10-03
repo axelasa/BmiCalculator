@@ -1,10 +1,11 @@
-package com.example.bmicalculator
+package bodymassindex.example.bmicalculator
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
 import android.view.View
+import bodymassindex.example.bmicalculator.R
 import kotlinx.android.synthetic.main.activity_bmi_calculator.*
 import kotlin.text.*
 

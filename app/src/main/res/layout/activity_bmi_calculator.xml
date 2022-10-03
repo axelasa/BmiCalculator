@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".BmiCalculator">
+    android:background="#ffffff"
+    tools:context="bodymassindex.example.bmicalculator.BmiCalculator">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -20,7 +21,7 @@
             android:id="@+id/weightView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="200dp"
             android:layout_marginBottom="5dp"
             android:gravity="center"
             android:text="Enter Weight in Kgs"
@@ -131,6 +132,7 @@
             android:layout_marginEnd="5dp"
             android:textStyle="bold"
             android:textSize="24sp"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/resultView"
@@ -159,9 +161,13 @@
             android:layout_marginBottom="15dp"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
-            android:text="Below 18.5 – you're in the underweight range.\nBetween 18.5 and 24.9 – you're in the healthy weight range.\nBetween 25 and 29.9 – you're in the overweight range.\nBetween 30 and 39.9 – you're in the obese range."
+            android:text="Below 18.5 – you're in the underweight range.
+            \n18.5 and 24.9 – you're in the healthy weight range.
+            \n25 and 29.9 – you're in the overweight range.
+            \n30 and 39.9 – you're in the obese range."
             android:textStyle="bold"
             android:textSize="24sp"
+            android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spacer"
